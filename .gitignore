@@ -32,7 +32,7 @@ downloads/
 htmlcov/
 .coverage*
 .cache
-*.log # Общее правило для логов, но logs/ ниже приоритетнее
+*.log # Общее правило для логов
 *.log.* # Для ротированных логов типа scraper.log.1
 *.swp
 *.swo
@@ -65,13 +65,14 @@ training.log
 evaluation_summary*.txt
 events_log.json
 current_value_context.html
+# Добавляем конкретные txt отчеты:
 cycle_interaction_report.txt
 phase_dow_interaction_report.txt
 
 # --- Большие файлы данных (если есть вне data/) ---
-# *.csv # Осторожно!
-# *.json # Осторожно! (кроме players_config.json)
+# *.csv
+# *.json # (кроме players_config.json)
 
 # --- Примеры явного НЕ игнорирования (если нужно) ---
 # !data/my_important_static_data.csv
-# !logs/important_audit.log
+# !models/pretrained_base_model.h5
