@@ -1,165 +1,77 @@
 # === Python ===
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
-.installed.cfg
 *.egg
 MANIFEST
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-# *.log # Закомментировано, так как логи могут быть важны для отладки, но папка logs/ исключена ниже
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Translations
-*.mo
-*.pot
-*.po
-
-# Django/Flask stuff (на всякий случай)
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-media/
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Virtual Environments (ОЧЕНЬ ВАЖНО!)
+# === Virtual Environments ===
 .env
 .venv
-venv/ # <- Ваша папка
+venv/
 env/
 *.env
 env.bak/
 venv.bak/
 
-# Spyder/Rope project settings
-.spyderproject
-.spyproject
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy/pyre/pytype caches
-.mypy_cache/
-.dmypy.json
-dmypy.json
-.pyre/
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
 # === IDE / Editor Specific ===
 .vscode/
-.idea/ # PyCharm
-*.swp
-*.swo
+.idea/
 
 # === OS Specific ===
-.DS_Store # macOS
-Thumbs.db # Windows
+.DS_Store
+Thumbs.db
+
+# === Distribution / Temp ===
+build/
+dist/
+downloads/
+*.spec
+*.manifest
+htmlcov/
+.coverage*
+.cache
+*.log # Общее правило для логов, но logs/ ниже приоритетнее
+*.log.* # Для ротированных логов типа scraper.log.1
+*.swp
+*.swo
+*.bak
+*_copy.py
+*_copy.csv
 
 # === RenderZ Tracker Project Specific ===
 
 # --- Конфигурация с секретами ---
 config.py
 
-# --- Папки с генерируемыми данными и отчетами ---
-data/             # Все данные игроков, расписания, состояния
-logs/             # Все лог-файлы (*.log)
-models/           # Сгенерированные модели ML
-stats/            # Сгенерированная статистика
-daily_reports/    # Сгенерированные дневные отчеты (если есть)
-extended_reports/ # Сгенерированные расширенные отчеты (если есть)
-intraday_data/   # Данные внутри дня (если генерятся)
-seasonal_reports/ # Сгенерированные сезонные отчеты (если есть)
-weekly_reports/   # Сгенерированные недельные отчеты (если есть)
+# --- Папки с генерируемыми данными, отчетами, логами, моделями ---
+data/
+logs/
+models/
+stats/
+daily_reports/
+extended_reports/
+intraday_data/
+seasonal_reports/
+weekly_reports/
 
-# --- Временные или отладочные файлы ---
-# HTML дампы ошибок
+# --- Специфичные генерируемые файлы в корне ---
 error_*.html
-error_screenshot_*.png # Скриншоты ошибок
-
-# Логи парсера/предсказаний/тренировки (если не нужны в репо)
+error_screenshot_*.png
 parser.log
 predictions.log
 training.log
-
-# Файлы с результатами оценки/валидации (если генерятся)
 evaluation_summary*.txt
+events_log.json
+current_value_context.html
+cycle_interaction_report.txt
+phase_dow_interaction_report.txt
 
-# Файлы с логами событий (если это runtime логи)
-events_log.json # Проверьте, нужно ли его хранить в репо
+# --- Большие файлы данных (если есть вне data/) ---
+# *.csv # Осторожно!
+# *.json # Осторожно! (кроме players_config.json)
 
-# --- Файлы с настройками специфичными для окружения ---
-# (Добавьте, если у вас есть такие)
-# local_config.py
-# settings_local.py
-
-# --- Копии файлов и бэкапы ---
-*_copy.py
-*_copy.csv
-*.bak
-
-# --- Другие потенциально ненужные файлы ---
-# current_value_context.html # Похоже на временный HTML
-# cycle_interaction_report.txt # Отчет, возможно генерируемый
-# phase_dow_interaction_report.txt # Отчет, возможно генерируемый
-# dashboard_mvp.py # Если это локальный дашборд, а не часть основного кода
-
-# --- Большие файлы данных (если есть и не в data/) ---
-# *.csv # Будьте осторожны, это может исключить нужные CSV вне data/
-# *.json # Аналогично для JSON
-
-# --- Пример явного включения (если что-то внутри исключенной папки нужно) ---
+# --- Примеры явного НЕ игнорирования (если нужно) ---
 # !data/my_important_static_data.csv
-# !models/pretrained_base_model.h5
+# !logs/important_audit.log
