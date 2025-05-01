@@ -1,0 +1,250 @@
+{
+  "players": {
+    "Waldemar Anton 103": {
+      "url": "https://renderz.app/24/player/24016194",
+      "position": "CB",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Warren Zaïre-Emery 103": {
+      "url": "https://renderz.app/24/player/24016204",
+      "position": "CM",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Ryan Gravenberch 103": {
+      "url": "https://renderz.app/24/player/24018438",
+      "position": "CM",
+      "ovr": 103,
+      "source_event_type": "current"
+    },
+    "José Fonte 104": {
+      "url": "https://renderz.app/24/player/24019008",
+      "position": "CB",
+      "ovr": 104,
+      "source_event_type": "current"
+    },
+    "David López 103": {
+      "url": "https://renderz.app/24/player/24015713",
+      "position": "CB",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Curtis Jones 102": {
+      "url": "https://renderz.app/24/player/24015715",
+      "position": "CM",
+      "ovr": 102,
+      "source_event_type": "past"
+    },
+    "Pedri 102": {
+      "url": "https://renderz.app/24/player/24014880",
+      "position": "CM",
+      "ovr": 102,
+      "source_event_type": "past"
+    },
+    "Leandro Paredes 103": {
+      "url": "https://renderz.app/24/player/24015989",
+      "position": "CM",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Subhasish Bose 103": {
+      "url": "https://renderz.app/24/player/24018005",
+      "position": "CB",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Sandesh Jhingan 104": {
+      "url": "https://renderz.app/24/player/24018003",
+      "position": "CB",
+      "ovr": 104,
+      "source_event_type": "past"
+    },
+    "Anirudh Thapa 103": {
+      "url": "https://renderz.app/24/player/24018004",
+      "position": "CM",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Scott McTominay 103": {
+      "url": "https://renderz.app/24/player/24015238",
+      "position": "CM",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Nuno Tavares 103": {
+      "url": "https://renderz.app/24/player/24015169",
+      "position": "LB",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "João Neves 103": {
+      "url": "https://renderz.app/24/player/24015185",
+      "position": "CM",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Fred 103": {
+      "url": "https://renderz.app/24/player/24015219",
+      "position": "CM",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Calvin Verdonk 101": {
+      "url": "https://renderz.app/24/player/24015227",
+      "position": "LB",
+      "ovr": 101,
+      "source_event_type": "past"
+    },
+    "Stanislav Lobotka 104": {
+      "url": "https://renderz.app/24/player/24016239",
+      "position": "CM",
+      "ovr": 104,
+      "source_event_type": "past"
+    },
+    "Paulo Futre LM 102 4 ранг": {
+      "url": "https://renderz.app/24/player/30902692?rankUp=4",
+      "position": "LM",
+      "ovr": 102,
+      "source_event_type": "past"
+    },
+    "Benjamin Pavard CB 101": {
+      "url": "https://renderz.app/24/player/24015129",
+      "position": "CB",
+      "ovr": 101,
+      "source_event_type": "past"
+    },
+    "Rodrigo De Paul 103": {
+      "url": "https://renderz.app/24/player/24015168",
+      "position": "CM",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Rahul Bheke 104 RB": {
+      "url": "https://renderz.app/24/player/24018002",
+      "position": "RB",
+      "ovr": 104,
+      "source_event_type": "past"
+    },
+    "Felix Nmecha 103": {
+      "url": "https://renderz.app/24/player/24018440",
+      "position": "CM",
+      "ovr": 103,
+      "source_event_type": "current"
+    },
+    "Jonathan Clauss 103": {
+      "url": "https://renderz.app/24/player/24016203",
+      "position": "RB",
+      "ovr": 103,
+      "source_event_type": "past"
+    },
+    "Dávid Hancko 104": {
+      "url": "https://renderz.app/24/player/24016196",
+      "position": "CB",
+      "ovr": 104,
+      "source_event_type": "past"
+    },
+    "Cristian Romero 104": {
+      "url": "https://renderz.app/24/player/24015933",
+      "position": "CB",
+      "ovr": 104,
+      "source_event_type": "past"
+    },
+    "Noussair Mazraoui 104": {
+      "url": "https://renderz.app/24/player/24015333",
+      "position": "RB",
+      "ovr": 104,
+      "source_event_type": "past"
+    },
+    "Orkun Kökçü 104": {
+      "url": "https://renderz.app/24/player/24016198",
+      "position": "CM",
+      "ovr": 104,
+      "source_event_type": "past"
+    },
+    "Lallianzuala Chhangte 105": {
+      "url": "https://renderz.app/24/player/24018000",
+      "position": "RW",
+      "ovr": 105,
+      "source_event_type": "past"
+    },
+    "Joško Gvardiol 100": {
+      "url": "https://renderz.app/24/player/24014813",
+      "position": "LB",
+      "ovr": 100,
+      "source_event_type": "past"
+    },
+    "Joško Gvardiol 101": {
+      "url": "https://renderz.app/24/player/24015536",
+      "position": "LB",
+      "ovr": 101,
+      "source_event_type": "past"
+    },
+    "Joško Gvardiol 102": {
+      "url": "https://renderz.app/24/player/24014206",
+      "position": "LB",
+      "ovr": 102,
+      "source_event_type": "past"
+    },
+    "Michael Kayode 100": {
+      "url": "https://renderz.app/24/player/24012150",
+      "position": "RB",
+      "ovr": 100,
+      "source_event_type": "past"
+    },
+    "Sander Berge 102": {
+      "url": "https://renderz.app/24/player/24015228",
+      "position": "CM",
+      "ovr": 102,
+      "source_event_type": "past"
+    },
+    "Dean James 99": {
+      "url": "https://renderz.app/24/player/24019124",
+      "position": "LB",
+      "ovr": 99,
+      "source_event_type": "current"
+    },
+    "Clément Akpa 99": {
+      "url": "https://renderz.app/24/player/24019121",
+      "position": "LB",
+      "ovr": 99,
+      "source_event_type": "current"
+    },
+    "Saúl 100": {
+      "url": "https://renderz.app/24/player/24014214",
+      "position": "CM",
+      "ovr": 100,
+      "source_event_type": "past"
+    },
+    "Rahim Ali 99": {
+      "url": "https://renderz.app/24/player/24018016",
+      "position": "LM",
+      "ovr": 99,
+      "source_event_type": "past"
+    },
+    "Amir Murillo": {
+      "url": "https://renderz.app/24/player/24015189",
+      "position": "RB",
+      "ovr": 99,
+      "source_event_type": "past"
+    },
+    "Alexandre Lacazette": {
+      "url": "https://renderz.app/24/player/24015557",
+      "position": "ST",
+      "ovr": 99,
+      "source_event_type": "past"
+    },
+    "Nicolás Tagliafico": {
+      "url": "https://renderz.app/24/player/24015186",
+      "position": "LB",
+      "ovr": 101,
+      "source_event_type": "past"
+    },
+    "Sander Berge": {
+      "url": "https://renderz.app/24/player/24015228",
+      "position": "CM",
+      "ovr": 102,
+      "source_event_type": "past"
+    }
+  }
+}
