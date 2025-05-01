@@ -1,0 +1,165 @@
+# === Python ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+# *.log # Закомментировано, так как логи могут быть важны для отладки, но папка logs/ исключена ниже
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+*.po
+
+# Django/Flask stuff (на всякий случай)
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environments (ОЧЕНЬ ВАЖНО!)
+.env
+.venv
+venv/ # <- Ваша папка
+env/
+*.env
+env.bak/
+venv.bak/
+
+# Spyder/Rope project settings
+.spyderproject
+.spyproject
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy/pyre/pytype caches
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# === IDE / Editor Specific ===
+.vscode/
+.idea/ # PyCharm
+*.swp
+*.swo
+
+# === OS Specific ===
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# === RenderZ Tracker Project Specific ===
+
+# --- Конфигурация с секретами ---
+config.py
+
+# --- Папки с генерируемыми данными и отчетами ---
+data/             # Все данные игроков, расписания, состояния
+logs/             # Все лог-файлы (*.log)
+models/           # Сгенерированные модели ML
+stats/            # Сгенерированная статистика
+daily_reports/    # Сгенерированные дневные отчеты (если есть)
+extended_reports/ # Сгенерированные расширенные отчеты (если есть)
+intraday_data/   # Данные внутри дня (если генерятся)
+seasonal_reports/ # Сгенерированные сезонные отчеты (если есть)
+weekly_reports/   # Сгенерированные недельные отчеты (если есть)
+
+# --- Временные или отладочные файлы ---
+# HTML дампы ошибок
+error_*.html
+error_screenshot_*.png # Скриншоты ошибок
+
+# Логи парсера/предсказаний/тренировки (если не нужны в репо)
+parser.log
+predictions.log
+training.log
+
+# Файлы с результатами оценки/валидации (если генерятся)
+evaluation_summary*.txt
+
+# Файлы с логами событий (если это runtime логи)
+events_log.json # Проверьте, нужно ли его хранить в репо
+
+# --- Файлы с настройками специфичными для окружения ---
+# (Добавьте, если у вас есть такие)
+# local_config.py
+# settings_local.py
+
+# --- Копии файлов и бэкапы ---
+*_copy.py
+*_copy.csv
+*.bak
+
+# --- Другие потенциально ненужные файлы ---
+# current_value_context.html # Похоже на временный HTML
+# cycle_interaction_report.txt # Отчет, возможно генерируемый
+# phase_dow_interaction_report.txt # Отчет, возможно генерируемый
+# dashboard_mvp.py # Если это локальный дашборд, а не часть основного кода
+
+# --- Большие файлы данных (если есть и не в data/) ---
+# *.csv # Будьте осторожны, это может исключить нужные CSV вне data/
+# *.json # Аналогично для JSON
+
+# --- Пример явного включения (если что-то внутри исключенной папки нужно) ---
+# !data/my_important_static_data.csv
+# !models/pretrained_base_model.h5
